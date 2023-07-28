@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import PropTypes from "prop-types";
 
 function LikeButton(props){
+    const [initialLikeNumber, moreLikes] = useState(props.initialLikeNumber)
+
     return (
-        <button>
-            ❤️ 0
+        <button onClick={ ()=> {
+            moreLikes(initialLikeNumber + 1)
+        } }>
+            ❤️ {initialLikeNumber}
         </button>
     )
 }

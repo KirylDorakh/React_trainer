@@ -1,0 +1,13 @@
+.star {
+    font-size: 42px;
+    color: #FBB202;
+    margin: 4px;
+}
+
+.star:after {
+    content: '☆';
+}
+
+.checked:after {
+    content: '★';
+}
