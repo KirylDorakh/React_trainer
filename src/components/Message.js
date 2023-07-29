@@ -1,9 +1,11 @@
 import React from "react";
 
+import "../styles/Message.css"
+
 function Message({name}){
     return (
         <h1>
-            <p>Hi! My name is {name}!</p>
+            <p>Hi! My name is <span>{name}!</span></p>
         </h1>
     )
 }

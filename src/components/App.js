@@ -14,8 +14,30 @@ import MouseDetector from "./MouseDetector";
 
 function App(){
     let name = "Kiryl"
-    let orderList = [{id: 1, title: "title 1", urgent: true, done: false},
-                                              {id: 2, title: "title 2", urgent: false, done: true}]
+    let orderList = [  {
+        id: 1,
+        title: 'картошка',
+        urgent: true,
+        done: false
+    },
+        {
+            id: 2,
+            title: 'молоко',
+            urgent: true,
+            done: true
+        },
+        {
+            id: 3,
+            title: 'орехи',
+            urgent: false,
+            done: false
+        },
+        {
+            id: 4,
+            title: 'батон',
+            urgent: false,
+            done: false
+        },]
 
     return(
         <>

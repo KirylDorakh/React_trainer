@@ -18,6 +18,12 @@ function List(props){
     )
 }
 
+// {this.props.orderList.map((item) => (
+//     <li key={item.id} style={{color: item.urgent && 'red', textDecoration: item.done && 'line-through'}}>
+//         {item.title}
+//     </li>
+// ))}
+
 List.propTypes = {
     orderList: PropTypes.arrayOf(
         PropTypes.shape({
