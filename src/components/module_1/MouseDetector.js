@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import "../styles/MouseDetector.css"
+import "../../styles/module_1/MouseDetector.css"
 
 function MouseDetector(){
     const [coords, getCoords] = useState([0, 0])

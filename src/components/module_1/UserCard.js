@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "../styles/UserCard.css"
+import "../../styles/module_1/UserCard.css"
 
 function UserCard ({name, email, avatar="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"}) {
     return(

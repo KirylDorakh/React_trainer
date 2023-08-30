@@ -1,0 +1,28 @@
+.notification {
+    padding: 8px;
+    margin: 8px 0;
+    background-color: #CAE3F0;
+}
+
+.notification.info {
+    background-color: #d2ecd5;
+}
+
+.notification.warning {
+    background-color: #f9edc1;
+}
+
+.notification.error {
+    background-color: #f5dbd9;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.message {
+    margin-top: 8px;
+    color: #3e4956;
+}

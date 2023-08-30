@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import PropTypes from "prop-types";
 
-import "../styles/StaredRating.css"
+import "../../styles/module_1/StaredRating.css"
 
 function StaredRating(props){
     let count = props.rate

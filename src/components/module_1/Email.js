@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/Email.css"
+import "../../styles/module_1/Email.css"
 
 function Email(){
 

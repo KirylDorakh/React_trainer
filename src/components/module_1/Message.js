@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/Message.css"
+import "../../styles/module_1/Message.css"
 
 function Message({name}){
     return (
