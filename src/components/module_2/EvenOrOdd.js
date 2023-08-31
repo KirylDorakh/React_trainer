@@ -25,3 +25,30 @@ class EvenOrOdd extends Component {
 }
 
 export default EvenOrOdd;
+
+
+// ============ var 2 =====
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            parity: null
+        }
+    }
+
+    updateParity = (e) => {
+        const val = e.target.value
+        this.setState({
+            parity: val % 2 === 0 ? 'чётное' : 'нечётное'
+        })
+    }
+
+    render() {
+        return (
+            <React.Fragment>
+                <input type='number' onChange={e => this.updateParity(e)}></input>
+                <div className='parity'>{this.state.parity}</div>
+            </React.Fragment>
+        )
+    }
+}
